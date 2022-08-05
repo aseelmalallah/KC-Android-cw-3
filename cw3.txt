@@ -1,0 +1,31 @@
+ package com.example.l3;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+ public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_main);
+
+        TextView x = findViewById(R.id.CALCULATOR);
+
+        TextView Y = findViewById(R.id.TOTAL);
+
+        EditText Z = findViewById(R.id.first);
+
+        EditText N = findViewById(R.id.second);
+
+        Button G = findViewById(R.id.CALCULATE);
+
+
+
+    }
+}
